@@ -1,0 +1,58 @@
+---
+layout: post
+title: "探索HTML：构建网页的基础"
+author: "TechShrimp"
+header-style: text
+catalog: true
+tags:
+  - Web
+  - HTML
+---
+
+# 探索HTML：构建网页的基础
+
+HTML（HyperText Markup Language）是构建网页和网络应用的基础。它定义了网页的结构和内容，使得网页能够在浏览器中正确显示。本文将介绍HTML的基本概念、常用标签以及如何使用HTML构建一个简单的网页。
+
+## HTML的基本概念
+
+HTML是一种标记语言，它使用标签（tags）来描述网页的内容。每个标签通常包含一个开始标签和一个结束标签，例如`<p>`和`</p>`，用于定义段落。HTML标签不区分大小写，但通常使用小写以保持一致性。
+
+## 常用HTML标签
+
+以下是一些常用的HTML标签及其用途：
+
+- `<html>`：定义整个HTML文档的根元素。
+- `<head>`：包含文档的元数据，如标题、样式和脚本。
+- `<title>`：定义网页的标题，显示在浏览器的标题栏或标签页上。
+- `<body>`：包含网页的所有内容，如文本、图片、视频等。
+- `<h1>` 到 `<h6>`：定义标题，`<h1>` 是最大的标题，`<h6>` 是最小的标题。
+- `<p>`：定义段落。
+- `<a>`：定义超链接，用于从一个页面链接到另一个页面。
+- `<img>`：定义图像。
+- `<ul>` 和 `<li>`：定义无序列表，`<ul>` 是列表容器，`<li>` 是列表项。
+- `<ol>` 和 `<li>`：定义有序列表，`<ol>` 是列表容器，`<li>` 是列表项。
+
+## 构建一个简单的HTML网页
+
+下面是一个简单的HTML网页示例：
+
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的第一页</title>
+</head>
+<body>
+    <h1>欢迎来到我的网页</h1>
+    <p>这是一个简单的HTML示例。</p>
+    <p>这是一个段落。</p>
+    <a href="https://www.example.com">访问示例网站</a>
+    <img src="image.jpg" alt="示例图片">
+    <ul>
+        <li>列表项1</li>
+        <li>列表项2</li>
+        <li>列表项3</li>
+    </ul>
+</body>
+</html>
